@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D270D71B1C72B19000B18DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270D71A1C72B19000B18DD4 /* AppDelegate.swift */; };
+		D270D71D1C72B19000B18DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270D71C1C72B19000B18DD4 /* ViewController.swift */; };
+		D270D7201C72B19000B18DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D270D71E1C72B19000B18DD4 /* Main.storyboard */; };
+		D270D7221C72B19000B18DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D270D7211C72B19000B18DD4 /* Assets.xcassets */; };
+		D270D7251C72B19000B18DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D270D7231C72B19000B18DD4 /* LaunchScreen.storyboard */; };
+		D270D7301C72B19000B18DD4 /* AltmeterSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270D72F1C72B19000B18DD4 /* AltmeterSampleTests.swift */; };
+		D270D73B1C72B1B900B18DD4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D270D73A1C72B1B900B18DD4 /* CoreMotion.framework */; };
+		D270D73F1C72BB9B00B18DD4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270D73E1C72BB9B00B18DD4 /* ViewModel.swift */; };
+		D270D7411C72BCC400B18DD4 /* RxSwift+CoreMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D270D7401C72BCC400B18DD4 /* RxSwift+CoreMotion.swift */; };
+		E317F59C75F456DC6918BFDB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EBD79E9A3113061EA7BAED /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D270D72C1C72B19000B18DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D270D70F1C72B19000B18DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D270D7161C72B19000B18DD4;
+			remoteInfo = AltmeterSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EBD79E9A3113061EA7BAED /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CF5D2233CC516532855982 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D270D7171C72B19000B18DD4 /* AltimeterSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltimeterSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D270D71A1C72B19000B18DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D270D71C1C72B19000B18DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D270D71F1C72B19000B18DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D270D7211C72B19000B18DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D270D7241C72B19000B18DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D270D7261C72B19000B18DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D270D72B1C72B19000B18DD4 /* AltimeterSample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimeterSample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D270D72F1C72B19000B18DD4 /* AltmeterSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltmeterSampleTests.swift; sourceTree = "<group>"; };
+		D270D7311C72B19000B18DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D270D73A1C72B1B900B18DD4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D270D73E1C72BB9B00B18DD4 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D270D7401C72BCC400B18DD4 /* RxSwift+CoreMotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxSwift+CoreMotion.swift"; sourceTree = "<group>"; };
+		E02DC4D14970EAE69F355F3A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D270D7141C72B19000B18DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D73B1C72B1B900B18DD4 /* CoreMotion.framework in Frameworks */,
+				E317F59C75F456DC6918BFDB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D270D7281C72B19000B18DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064CA938B1A56E54C5F7A948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D270D73A1C72B1B900B18DD4 /* CoreMotion.framework */,
+				07EBD79E9A3113061EA7BAED /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FA84A5C23846B3BF9C03A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13CF5D2233CC516532855982 /* Pods.debug.xcconfig */,
+				E02DC4D14970EAE69F355F3A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D270D70E1C72B19000B18DD4 = {
+			isa = PBXGroup;
+			children = (
+				D270D7191C72B19000B18DD4 /* AltimeterSample */,
+				D270D72E1C72B19000B18DD4 /* AltimeterSampleTests */,
+				D270D7181C72B19000B18DD4 /* Products */,
+				6FA84A5C23846B3BF9C03A8B /* Pods */,
+				064CA938B1A56E54C5F7A948 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D270D7181C72B19000B18DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D270D7171C72B19000B18DD4 /* AltimeterSample.app */,
+				D270D72B1C72B19000B18DD4 /* AltimeterSample.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D270D7191C72B19000B18DD4 /* AltimeterSample */ = {
+			isa = PBXGroup;
+			children = (
+				D270D71A1C72B19000B18DD4 /* AppDelegate.swift */,
+				D270D71C1C72B19000B18DD4 /* ViewController.swift */,
+				D270D71E1C72B19000B18DD4 /* Main.storyboard */,
+				D270D7211C72B19000B18DD4 /* Assets.xcassets */,
+				D270D7231C72B19000B18DD4 /* LaunchScreen.storyboard */,
+				D270D7261C72B19000B18DD4 /* Info.plist */,
+				D270D73E1C72BB9B00B18DD4 /* ViewModel.swift */,
+				D270D7401C72BCC400B18DD4 /* RxSwift+CoreMotion.swift */,
+			);
+			name = AltimeterSample;
+			path = AltmeterSample;
+			sourceTree = "<group>";
+		};
+		D270D72E1C72B19000B18DD4 /* AltimeterSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D270D72F1C72B19000B18DD4 /* AltmeterSampleTests.swift */,
+				D270D7311C72B19000B18DD4 /* Info.plist */,
+			);
+			name = AltimeterSampleTests;
+			path = AltmeterSampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D270D7161C72B19000B18DD4 /* AltimeterSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D270D7341C72B19000B18DD4 /* Build configuration list for PBXNativeTarget "AltimeterSample" */;
+			buildPhases = (
+				927D4A69550F4BD1792E2B2D /* Check Pods Manifest.lock */,
+				D270D7131C72B19000B18DD4 /* Sources */,
+				D270D7141C72B19000B18DD4 /* Frameworks */,
+				D270D7151C72B19000B18DD4 /* Resources */,
+				94B9DBADBC8C3A2C2F71CF8C /* Embed Pods Frameworks */,
+				B91E209FADCB55DB2F7DA596 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltimeterSample;
+			productName = AltmeterSample;
+			productReference = D270D7171C72B19000B18DD4 /* AltimeterSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D270D72A1C72B19000B18DD4 /* AltimeterSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D270D7371C72B19000B18DD4 /* Build configuration list for PBXNativeTarget "AltimeterSampleTests" */;
+			buildPhases = (
+				D270D7271C72B19000B18DD4 /* Sources */,
+				D270D7281C72B19000B18DD4 /* Frameworks */,
+				D270D7291C72B19000B18DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D270D72D1C72B19000B18DD4 /* PBXTargetDependency */,
+			);
+			name = AltimeterSampleTests;
+			productName = AltmeterSampleTests;
+			productReference = D270D72B1C72B19000B18DD4 /* AltimeterSample.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D270D70F1C72B19000B18DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Takeshi Kawai";
+				TargetAttributes = {
+					D270D7161C72B19000B18DD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D270D72A1C72B19000B18DD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D270D7161C72B19000B18DD4;
+					};
+				};
+			};
+			buildConfigurationList = D270D7121C72B19000B18DD4 /* Build configuration list for PBXProject "AltimeterSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D270D70E1C72B19000B18DD4;
+			productRefGroup = D270D7181C72B19000B18DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D270D7161C72B19000B18DD4 /* AltimeterSample */,
+				D270D72A1C72B19000B18DD4 /* AltimeterSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D270D7151C72B19000B18DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D7251C72B19000B18DD4 /* LaunchScreen.storyboard in Resources */,
+				D270D7221C72B19000B18DD4 /* Assets.xcassets in Resources */,
+				D270D7201C72B19000B18DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D270D7291C72B19000B18DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		927D4A69550F4BD1792E2B2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94B9DBADBC8C3A2C2F71CF8C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91E209FADCB55DB2F7DA596 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D270D7131C72B19000B18DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D71D1C72B19000B18DD4 /* ViewController.swift in Sources */,
+				D270D71B1C72B19000B18DD4 /* AppDelegate.swift in Sources */,
+				D270D73F1C72BB9B00B18DD4 /* ViewModel.swift in Sources */,
+				D270D7411C72BCC400B18DD4 /* RxSwift+CoreMotion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D270D7271C72B19000B18DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270D7301C72B19000B18DD4 /* AltmeterSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D270D72D1C72B19000B18DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D270D7161C72B19000B18DD4 /* AltimeterSample */;
+			targetProxy = D270D72C1C72B19000B18DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D270D71E1C72B19000B18DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D270D71F1C72B19000B18DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D270D7231C72B19000B18DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D270D7241C72B19000B18DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D270D7321C72B19000B18DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D270D7331C72B19000B18DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D270D7351C72B19000B18DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CF5D2233CC516532855982 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AltmeterSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.AltimeterSample;
+				PRODUCT_NAME = AltimeterSample;
+			};
+			name = Debug;
+		};
+		D270D7361C72B19000B18DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02DC4D14970EAE69F355F3A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AltmeterSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.AltimeterSample;
+				PRODUCT_NAME = AltimeterSample;
+			};
+			name = Release;
+		};
+		D270D7381C72B19000B18DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AltmeterSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.AltmeterSampleTests;
+				PRODUCT_NAME = AltimeterSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimeterSample.app/AltimeterSample";
+			};
+			name = Debug;
+		};
+		D270D7391C72B19000B18DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AltmeterSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.lifelog.AltmeterSampleTests;
+				PRODUCT_NAME = AltimeterSample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimeterSample.app/AltimeterSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D270D7121C72B19000B18DD4 /* Build configuration list for PBXProject "AltimeterSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D270D7321C72B19000B18DD4 /* Debug */,
+				D270D7331C72B19000B18DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D270D7341C72B19000B18DD4 /* Build configuration list for PBXNativeTarget "AltimeterSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D270D7351C72B19000B18DD4 /* Debug */,
+				D270D7361C72B19000B18DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D270D7371C72B19000B18DD4 /* Build configuration list for PBXNativeTarget "AltimeterSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D270D7381C72B19000B18DD4 /* Debug */,
+				D270D7391C72B19000B18DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D270D70F1C72B19000B18DD4 /* Project object */;
+}
